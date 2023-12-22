@@ -1,0 +1,22 @@
+//- base.pug --> 
+doctype html
+html
+  head
+    title Abhinav Dance Academy
+    block scripts
+    block style
+  body
+    //- navbar ko template ka hissa bna diya.
+    nav#navbar 
+        ul 
+            div#logo
+              img(src = "https://i.pinimg.com/originals/4e/d8/c7/4ed8c78fa3945cbe655b4d715fe83767.png")
+            h3 ADA   
+            li #[a(href ="/") Home] 
+            li #[a(href ="/") About] 
+            li #[a(href ="/") Services] 
+            li #[a(href ="/contact") Contact Us] 
+            li #[a(href ="/") More]
+    block content
+    footer#footer
+        | Copyrights © 2023 AbhinavDanceacademy.com | All rights reserved.

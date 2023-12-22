@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Abhinav Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+              img(src = "https://i.pinimg.com/originals/4e/d8/c7/4ed8c78fa3945cbe655b4d715fe83767.png")
+            h3 ADA   
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services] 
+            li #[a(href = "/contact") Contact Us] 
+            li #[a(href="/") More]
+    
+    section#introSection
+        div Welcome to Abhinav Dance Academy. 
+        div.small Life is better when u dance...
+
+    section#missionSection
+        h2 Our Mission
+        div.card#id1
+          h3 Dance like the way you want. 
+          div.card-box 
+            div.card-img
+              img(src="https://us.123rf.com/450wm/thesilhouettequeen/thesilhouettequeen2010/thesilhouettequeen201007285/158032712-kuchipudi-silhouette-vector.jpg")
+            div.card-content
+              p A rising dance academy in East Delhi.
+
+        
+        div.card#id2
+          h3 Let the stage set on fire.
+          div.card-box 
+            div.card-img
+              img(src="https://previews.123rf.com/images/gaydarova/gaydarova2002/gaydarova200200070/142919851-black-silhouette-of-a-dancing-man-on-white-background-a-male-street-dance-hip-hop-dancer-vector.jpg")
+            div.card-content
+              p Dance from your soul.
+
+        div.card#id3
+          h3 Perfection in dance.
+          div.card-box 
+            div.card-img
+              img(src="https://img.freepik.com/premium-vector/beautiful-drawing-ballerina-white-backgroundsketchvector-black-silhouette-dancer_588444-164.jpg")
+            div.card-content
+              p Let's bring out the dance from inside u.
+
+    section#sponsorSection
+        h2 Our sponsors  
+        div#sponsors
+          img(src="/static/img/1.jpg", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/2.jpg", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/3.png", alt="Sponsor Image", class="spImage")
+          img(src="/static/img/5.png", alt="Sponsor Image", class="spImage")
+
+    footer#footer
+        | Copyrights © 2023 AbhinavDanceacademy.com | All rights reserved.
+
+    script
+      include ../static/index.js

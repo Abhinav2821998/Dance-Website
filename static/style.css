@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 7px;
+}
+
+#logo img{
+    height: 45px;
+    background-color: rgb(3, 58, 3) ;
+    filter: invert(1);
+}
+#navbar{
+    background-color: rgb(3, 58, 3);
+    padding: 18px 14px;
+    font-family: 'Alkatra', cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center; -- content vertically center m aa jaayega*/ 
+}
+
+#navbar ul h3{
+    color: white;
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 40px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: goldenrod;
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    align-items: center;
+    background: center / cover no-repeat url("https://images.unsplash.com/photo-1470225620780-dba8ba36b745");
+    height: 330px;
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#sponsorSection{
+    height: 300px;
+    margin-top: 15px;
+    background-color: rgb(186, 224, 186);
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#missionSection{
+    margin: auto;
+    height: 310px;
+    width: 67%;
+    background-color: white;
+}
+
+#sponsorSection h2{
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    padding-top: 23px;
+    color: navy;
+}
+
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 12px;
+    height: 209px;
+    
+}
+
+.card#id1:hover{
+    background-color: rgb(227, 208, 245);
+}
+
+.card#id2:hover{
+    background-color: rgb(227, 208, 245);
+}
+
+.card#id3:hover{
+    background-color: rgb(227, 208, 245);
+}
+
+
+.card h3{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-img{
+    margin-top: 15px;
+    height: 110px;
+    padding: 0px 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    color: navy;
+    padding-right: 5px;
+}
+
+#missionSection h2{
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+    padding-top: 23px;
+    color: navy;
+}
+
+
+#footer{
+    display: flex;
+    height: 60px;
+    background-color: rgb(84, 12, 84);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
